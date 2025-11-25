@@ -1,0 +1,37 @@
+# Node.js specific
+node_modules/
+
+# .env file for sensitive data (e.g., MongoDB URI)
+.env
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE/editor files (e.g., VSCode, IntelliJ)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive file (e.g., MongoDB URI)
+src/lib/db.js
+
+# Compiled files
+*.class
+*.exe
+*.dll
+
+# Coverage output directory
+coverage/
+
+# Optional, ignore the output of certain tasks (e.g., test results)
+test-results/
+
+# Ignore static files or directories
+public/uploads/
+
+.next/
