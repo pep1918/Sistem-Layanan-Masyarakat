@@ -16,7 +16,7 @@ import {
   MessageSquare, 
   Gift, 
   History,
-  Calendar // TAMBAHAN: Icon untuk Agenda
+  Calendar
 } from 'lucide-react';
 
 export default function Sidebar() {
@@ -55,7 +55,7 @@ export default function Sidebar() {
     if (typeof window !== 'undefined') {
         localStorage.removeItem('user_session');
     }
-    router.push('/'); // Kembali ke halaman Login Utama
+    router.push('/'); 
   };
 
   return (
